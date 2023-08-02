@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+
+.hero-section {
+    background-image: url("./images/imagebak1.jfif");
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+   
+}
+  .hero-text {
+      color: white;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+            text-align: center;
+            padding-top: 5%;
+  }
+  .text {
+    font-size: 50%;
+    text-align: center;
+  }
+  .blackbox{
+    background-color: black;
+    color: white;
+        margin: auto;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  /* cardcontainer-image */
+  img{
+    width: 90%;
+    height: 70%;
+    margin-top: 5%;
+    }
+ .containerh1{
+    font-weight: bold;
+    color: black;
+    font-size: large;
+ } 
+
+ .card-container{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto;
+  box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+  height: 80vh;
+  padding: 5%;
+  margin: 5% 10%;
+  text-align: center;
+          }
+  .card-container  p{
+    font-size: small;
+  }      
+  .grid-items{
+  display: grid;
+  grid-template-columns: 30% 30% 30%; 
+ text-align: center;
+justify-content: center;
+  align-items: center;
+  margin: 5% 5%;
+  column-gap: 3%;
+   }  
+
+     /* footer section */
+  .grid-footer-container{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 10%;
+    
+ } 
+
+ .contact{
+    background-color: green;
+   color: white;
+    width: 100%;
+    height: 20vh;
+   margin-bottom: 5%;
+    text-align: left;
+    padding: 2%;
+    
+    
+ }
+ .aboutme{
+    background-color: maroon;
+    color: white;
+    width: 100%;
+    height: 20vh;
+    text-align: left;
+    margin-bottom: 5%;
+    padding: 2%;
+ }
+/* media queries */
+@media screen and (max-width: 900px){
+  body{
+    display: grid;
+    grid-template-columns: 100%;
+      }
+  .grid-items{
+    grid-template-columns: 100%;
+      }
+  .card-container{
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    }
+  .grid-footer-container{
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    margin: 5%;
+    
+  }
+
+}
+ 
+
+   
+
+
+    
+       
